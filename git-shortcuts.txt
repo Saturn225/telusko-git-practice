@@ -7,3 +7,28 @@ clear -x or ctrl+L to clear (only screen,can get back the commands by scrolling 
  git ls -a ? lists all files + hidden files of current dir
  git diff   ?  difference bw present working dir and    staged area
  git diff --staged  ?    difference bw present staged area and repository
+ git remote add origin url 
+ git push origin -u main 
+ git push origin --all (push all local branches)
+ git push origin --tags (push all tags)
+
+cat fileName // display contents of the file 
+pwd  //  tells the path of present working directory
+// different version of repo can be seen through github( in commit history)
+
+tag == version releases of a software //v2.1
+git tag // shows all tags 
+git tag v1.3 // creates a new tag 
+git show v1.3 // changes made
+
+git branch,switch,checkout
+
+git branch // displays all branches
+git branch b1, git switch -c b1   // creates a new branch 
+git switch -b2 // switch to b2 branch
+git switch -   // switch to previous branch
+git branch -d b2   // deletes b2 branch  
+
+
+
+git fetch,pull
