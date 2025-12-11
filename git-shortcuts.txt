@@ -1,0 +1,2 @@
+clear -x or ctrl+L to clear (only screen,can get back the commands by scrolling up)
+ rather than clear which clears commands
