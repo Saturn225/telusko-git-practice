@@ -1,2 +1,9 @@
 clear -x or ctrl+L to clear (only screen,can get back the commands by scrolling up)
  rather than clear which clears commands
+
+ git log ? shows all the commits
+ git status ? tracked or any untracked file 
+ git ls ? lists all files                   of current dir 
+ git ls -a ? lists all files + hidden files of current dir
+ git diff   ?  difference bw present working dir and    staged area
+ git diff --staged  ?    difference bw present staged area and repository
